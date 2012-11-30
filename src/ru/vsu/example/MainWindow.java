@@ -1,5 +1,5 @@
 package ru.vsu.example;
-
+  //Some comment
 import java.awt.FileDialog;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -202,7 +202,7 @@ public class MainWindow extends JFrame implements ActionListener {
 		String fileNameForSaving = createFileDialog.getDirectory() + createFileDialog.getFile();
 
 		return fileNameForSaving;
-        //TODO add dialog result for cancel button.
+
 	}
 	
 	private void WriteIntoFile(String fileName) throws IOException {
