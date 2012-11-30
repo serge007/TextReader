@@ -202,6 +202,7 @@ public class MainWindow extends JFrame implements ActionListener {
 		String fileNameForSaving = createFileDialog.getDirectory() + createFileDialog.getFile();
 
 		return fileNameForSaving;
+        //TODO add dialog result for cancel button.
 	}
 	
 	private void WriteIntoFile(String fileName) throws IOException {
