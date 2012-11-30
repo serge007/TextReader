@@ -1,5 +1,6 @@
 package ru.vsu.example;
   //Some comment
+    //sdfsss
 import java.awt.FileDialog;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
