@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42032f70-cf74-49da-9842-edb89880aefd" name="Default" comment="commit from Intellij Idea">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ru/vsu/example/MainWindow$DocumentListenerImpl.class" afterPath="$PROJECT_DIR$/bin/ru/vsu/example/MainWindow$DocumentListenerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ru/vsu/example/MainWindow.class" afterPath="$PROJECT_DIR$/bin/ru/vsu/example/MainWindow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/vsu/example/MainWindow.java" afterPath="$PROJECT_DIR$/src/ru/vsu/example/MainWindow.java" />
     </list>
@@ -66,7 +64,7 @@
       <file leaf-file-name="MainWindow.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/vsu/example/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="50" selection-start="3912" selection-end="3912" vertical-scroll-proportion="0.1528777">
+            <state line="101" column="54" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.44064748">
               <folding />
             </state>
           </provider>
@@ -121,20 +119,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TxtRed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TxtRed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -179,6 +163,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TxtRed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TxtRed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -485,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/vsu/example/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="50" selection-start="3912" selection-end="3912" vertical-scroll-proportion="0.1528777">
+        <state line="101" column="54" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.44064748">
           <folding />
         </state>
       </provider>
