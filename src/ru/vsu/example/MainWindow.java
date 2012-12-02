@@ -1,9 +1,7 @@
 package ru.vsu.example;
   //Some comment
     //sdfsss
-import java.awt.FileDialog;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
@@ -101,6 +99,7 @@ public class MainWindow extends JFrame implements ActionListener {
 	private void createTextArea() {
 		textArea = new JTextArea();
 		textArea.getDocument().addDocumentListener(new DocumentListenerImpl());
+        textArea.setFont((Font.decode(("Areal-PLAIN-14"))));
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
@@ -122,11 +121,13 @@ public class MainWindow extends JFrame implements ActionListener {
 			int result = JOptionPane.showConfirmDialog(this, "Save changes?");
 			switch(result) {
 				case JOptionPane.OK_OPTION:
-				    Saving(_fileName);
+				   if(Saving(_fileName)) {
 					ClearParametrs();
+                   }
 					break;
 				case JOptionPane.NO_OPTION:
 					ClearParametrs();
+                 //   _isModified = false;
 					break;
 				case JOptionPane.CANCEL_OPTION:
 					break;
@@ -141,19 +142,24 @@ public class MainWindow extends JFrame implements ActionListener {
             int result = JOptionPane.showConfirmDialog(this, "Save changes?");
             switch(result) {
                 case JOptionPane.OK_OPTION:
-                    Saving(_fileName);
-                    ClearParametrs();
-                    openFile();
-                    break;
+                   if(Saving(_fileName)){
+                        ClearParametrs();
+                        openFile();
+                        break;
+                   } else {
+                        break;
+                   }
                 case JOptionPane.NO_OPTION:
                     ClearParametrs();
                     openFile();
+                  //  _isModified = false;
                     break;
                 case JOptionPane.CANCEL_OPTION:
                     break;
             }
         } else {
             openFile();
+            //_isModified = false;
         }
 
 	}
@@ -184,15 +190,19 @@ public class MainWindow extends JFrame implements ActionListener {
 		} 
 	}
 	
-	private void Saving(String fileName) throws IOException {
+	private boolean Saving(String fileName) throws IOException {
 		if ( fileName.equals("") )   {
-			String fileNameForSaving = OpenFileDialog(); 	
-			WriteIntoFile(fileNameForSaving);
-			_fileName = fileNameForSaving;
-
+			String fileNameForSaving = OpenFileDialog();
+            if (fileNameForSaving == null)  {
+                return false;
+            } else {
+                WriteIntoFile(fileNameForSaving);
+                return true;
+            }
 		} else {
 			WriteIntoFile(fileName);
 			_fileName = fileName;
+            return true;
 		}
 	}
 	
@@ -200,8 +210,10 @@ public class MainWindow extends JFrame implements ActionListener {
 		FileDialog createFileDialog = new FileDialog(this);
 		createFileDialog.setMode(FileDialog.SAVE);
 		createFileDialog.setVisible(true);
-		String fileNameForSaving = createFileDialog.getDirectory() + createFileDialog.getFile();
 
+        if (createFileDialog.getFile() == null) return null;
+
+		String fileNameForSaving = createFileDialog.getDirectory() + createFileDialog.getFile();
 		return fileNameForSaving;
 
 	}
@@ -214,9 +226,9 @@ public class MainWindow extends JFrame implements ActionListener {
 	}
 	
 	private void ClearParametrs() {
-		_isModified = false;
 		_fileName = "";
 		textArea.setText("");
+        _isModified = false;
 	}
 	
 	
@@ -294,9 +306,10 @@ public class MainWindow extends JFrame implements ActionListener {
             int result = JOptionPane.showConfirmDialog(this, "Save changes?");
             switch(result) {
                 case JOptionPane.OK_OPTION:
-                    Saving(_fileName);
+                    if(Saving(_fileName)) {
                     dispose();
                     System.exit(0);
+                    }
                     break;
                 case JOptionPane.NO_OPTION:
                     dispose();
