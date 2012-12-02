@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42032f70-cf74-49da-9842-edb89880aefd" name="Default" comment="commit from Intellij Idea">
+    <list default="true" id="42032f70-cf74-49da-9842-edb89880aefd" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.idea\ant.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\.settings\org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\TxtRed.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\bin\ru\vsu\example\JMenuItemEx.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\bin\ru\vsu\example\MainWindow$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\bin\ru\vsu\example\MainWindow$DocumentListenerImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\bin\ru\vsu\example\MainWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\bin\ru\vsu\example\TestGuiApp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\nullnull" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\src\ru\vsu\example\JMenuItemEx.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\src\ru\vsu\example\MainWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Viacheslav\Documents\TextReader\TextReader\src\ru\vsu\example\TestGuiApp.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/vsu/example/MainWindow.java" afterPath="$PROJECT_DIR$/src/ru/vsu/example/MainWindow.java" />
     </list>
     <ignored path="TxtRed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,17 +80,7 @@
     <favorites_list name="TxtRed" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainWindow.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/vsu/example/MainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="54" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.44064748">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -144,24 +154,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TextReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TxtRed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,12 +377,16 @@
       <created>1354302900733</created>
       <updated>1354302900733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Increase font">
+      <created>1354439109016</created>
+      <updated>1354439109016</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19897084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -399,17 +395,17 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31560892" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24905087" sideWeight="0.8799314" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24905087" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.120065786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -451,7 +447,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit from Intellij Idea 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Increase font" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -467,6 +463,7 @@
     <MESSAGE value="TODO" />
     <MESSAGE value="commit from Intellij Idea" />
     <MESSAGE value="commit from Intellij Idea 2" />
+    <MESSAGE value="Increase font" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -479,13 +476,6 @@
     <entry file="file://$PROJECT_DIR$/src/ru/vsu/example/TestGuiApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="58" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/vsu/example/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="54" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.44064748">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>
