@@ -1,6 +1,5 @@
 package ru.vsu.example;
-  //Some comment
-    //sdfsss
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
