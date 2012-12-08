@@ -93,7 +93,7 @@ public class MainWindow extends JFrame implements ActionListener {
 		return menuItem;
 	}
 	
-	public JOptionPane createJOptionPane; {}
+	public JOptionPane createJOptionPane;
 	
 	private void createTextArea() {
 		textArea = new JTextArea();
@@ -142,9 +142,11 @@ public class MainWindow extends JFrame implements ActionListener {
             switch(result) {
                 case JOptionPane.OK_OPTION:
                    if(Saving(_fileName)){
-                        ClearParametrs();
-                        openFile();
-                        break;
+                       if (openFile()) {
+                            ClearParametrs();
+                       } else {
+                            break;
+                       }
                    } else {
                         break;
                    }
@@ -158,7 +160,7 @@ public class MainWindow extends JFrame implements ActionListener {
             }
         } else {
             openFile();
-            //_isModified = false;
+            _isModified = false;
         }
 
 	}
@@ -170,7 +172,7 @@ public class MainWindow extends JFrame implements ActionListener {
 		WriteIntoFile(fileNameForSave);	
 	}
 	
-	private void openFile() {
+	private boolean openFile() {
 		FileDialog fd = new FileDialog(this);
 		fd.setMode(FileDialog.LOAD);
 		fd.setVisible(true);
@@ -182,11 +184,16 @@ public class MainWindow extends JFrame implements ActionListener {
 				while ((s = br.readLine()) != null)
 					textArea.append(s + "\n");
 				br.close();
+                _fileName = fileName;
+                return true;
 			}
 			catch (Exception e) {
 				showErrorMessage("Read file error: " + e.getMessage());
+                return false;
 			}
-		} 
+		} else {
+            return false;
+        }
 	}
 	
 	private boolean Saving(String fileName) throws IOException {
@@ -196,11 +203,12 @@ public class MainWindow extends JFrame implements ActionListener {
                 return false;
             } else {
                 WriteIntoFile(fileNameForSaving);
+                _fileName = fileNameForSaving;
                 return true;
             }
 		} else {
 			WriteIntoFile(fileName);
-			_fileName = fileName;
+			//_fileName = fileName;
             return true;
 		}
 	}
