@@ -301,7 +301,7 @@ public class MainWindow extends JFrame implements ActionListener {
 	}
 
 	private void showAppInfo() {
-		JOptionPane.showMessageDialog(this, "Test GUI Application v 1.0", getTitle(), JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(this, "Test GUI Application v 3.0", getTitle(), JOptionPane.INFORMATION_MESSAGE);
 	}
 	
 	private void showErrorMessage(String msg) {
