@@ -98,7 +98,7 @@ public class MainWindow extends JFrame implements ActionListener {
 	private void createTextArea() {
 		textArea = new JTextArea();
 		textArea.getDocument().addDocumentListener(new DocumentListenerImpl());
-        textArea.setFont((Font.decode(("Areal-PLAIN-16"))));
+        textArea.setFont((Font.decode(("Areal-PLAIN-14"))));
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
